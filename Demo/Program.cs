@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Demo);
+            Console.WriteLine("Demo");
+            Console.WriteLine("Test push");
         }
     }
 }
