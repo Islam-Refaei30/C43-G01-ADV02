@@ -25,13 +25,21 @@ namespace Assignment
 			#endregion
 
 			#region Q2 
-			List<int> list = new List<int>() { 2,3,4,5,6,7,8 };	
-			
-			List<int> newList = Helper.EvenNumberInList(list);
-			foreach (int i in newList)
-			{
-				Console.WriteLine(i);
-			}
+			//List<int> list = new List<int>() { 2,3,4,5,6,7,8 };	
+
+			//List<int> newList = Helper.EvenNumberInList(list);
+			//foreach (int i in newList)
+			//{
+			//	Console.WriteLine(i);
+			//}
+			#endregion
+
+			#region Q3 
+			FixedSizeList<int> List = new FixedSizeList<int>(5);
+			List.Add(1);
+			List.Add(11);
+			List.Add(15);
+			List.GetValue(15);
 			#endregion
 		}
 	}
