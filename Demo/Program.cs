@@ -113,7 +113,7 @@ namespace Demo
 
 			#region Part 03  Generic Collections (List Methods)
 			//List<int> list = new List<int>([5, 2, 6, 8, 6, 4, 0, 5]);
-			List<int> list = new List<int>(){5, 2, 6, 8, 6, 4, 0, 5 };
+			//List<int> list = new List<int>(){5, 2, 6, 8, 6, 4, 0, 5 };
 			//list.Add(1); // Add one element
 			//list.AddRange(new int[] {2,3}); // Add Range of elelment
 			////Console.WriteLine(list[2]);
@@ -127,9 +127,20 @@ namespace Demo
 			//Console.WriteLine(list.Capacity);
 			//Console.WriteLine(list.EnsureCapacity(3)); // Increase Capacity but Check Old Capacity First
 
-			Console.WriteLine(list.IndexOf(5)); // اول ظهور للعنصر
-			Console.WriteLine(list.LastIndexOf(5)); // اخر ظهور للعنصر
+			//Console.WriteLine(list.IndexOf(5)); // اول ظهور للعنصر
+			//Console.WriteLine(list.LastIndexOf(5)); // اخر ظهور للعنصر
 			//foreach (int i in list)
+			//{
+			//	Console.WriteLine(i);
+			//}
+			#endregion
+
+			#region Part 04 Linked List
+			//LinkedList<int> Numbers = new LinkedList<int>();
+			//Numbers.AddFirst(10);
+			//Numbers.AddAfter(Numbers.First, 20);
+			//Numbers.AddLast(60);
+			//foreach(int i in Numbers)
 			//{
 			//	Console.WriteLine(i);
 			//}
