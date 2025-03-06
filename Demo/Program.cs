@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Net.NetworkInformation;
 
 namespace Demo
 {
@@ -52,24 +53,65 @@ namespace Demo
             //Console.WriteLine($"Count = {A2.Count} ,Capacity = {A2.Capacity} ");
             #endregion
             #region EX3
-            ArrayList A3 = new ArrayList();
-            A3.Add(1); // Casting from value type to ref   int=>obj   [Boxing]
-			A3.Add(10);
-			A3.Add(12);
-			A3.Add(16);
-			A3.Add("Islam");
+            //         ArrayList A3 = new ArrayList();
+            //         A3.Add(1); // Casting from value type to ref   int=>obj   [Boxing]
+            //A3.Add(10);
+            //A3.Add(12);
+            //A3.Add(16);
+            //A3.Add("Islam");
             //compiler can not Enforce type safty
             //HetroGenous
 
-            int Result = SumOfArrayList(A3);
-			Console.WriteLine($"The Result = {Result}");
+            //         int Result = SumOfArrayList(A3);
+            //Console.WriteLine($"The Result = {Result}");
 
 
 
+
+            #endregion
+
+            #endregion
+
+            #region Part 02 Generic Collections [List]
+            #region EX 1
+            //List<int> list = new List<int>();
+            //Console.WriteLine($"Count = {list.Count} ,Capacity = {list.Capacity} ");
+
+            //list.Add(1);
+            //Console.WriteLine($"Count = {list.Count} ,Capacity = {list.Capacity} ");
+
+
+            //list.AddRange(new int[] { 50, 55, 0 });
+            //Console.WriteLine($"Count = {list.Count} ,Capacity = {list.Capacity} ");
+
+            //list.Add(22);
+            //Console.WriteLine($"Count = {list.Count} ,Capacity = {list.Capacity} ");
+
+            //list.TrimExcess();
+            //Console.WriteLine($"Count = {list.Count} ,Capacity = {list.Capacity} ");
+            #endregion
+            #region EX 2
+            //List<int> list = new List<int> { 50, 20, 30, 24, 5, 5 };
+            //List<int> list = new List<int>(5) { 50, 20, 30, 24, 5, 5 };
+            //Console.WriteLine($"Count = {list.Count} ,Capacity = {list.Capacity} ");
+            //list.Sort();
+            //list[0] = 5099;// Using Indexer As Setter
+            //foreach(int i in list)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //         for(int i = 0;i < list.Count;i++)
+            //{
+            //             Console.WriteLine(list[i]); // Using Indexer As Getter
+            //}
+            //list.Add("islam");
+
+            //Console.WriteLine(Helper.SumList(list));
 
 			#endregion
-
 			#endregion
+
+
 		}
 	}
 }
