@@ -167,6 +167,32 @@ namespace Demo
 			//}
 			#endregion
 
+			#region Part 06 Queue
+			Queue<int> Q = new Queue<int>();
+			Q.Enqueue(10);
+			Q.Enqueue(15);
+			Q.Enqueue(12);
+			Q.Enqueue(120);
+
+			//Q.Dequeue();
+
+			Console.WriteLine(Q.Dequeue()); // 10
+			Console.WriteLine(Q.Dequeue()); // 15
+			Console.WriteLine(Q.Dequeue()); //12
+			Console.WriteLine(Q.Dequeue()); //120
+
+
+			//Console.WriteLine(Q.Dequeue()); //Invalid
+			//Console.WriteLine(Q.TryDequeue(out int R));  // True Or False
+			Q.TryDequeue(out int R);
+			Console.WriteLine(R); // 0 or the number
+
+			foreach (int i in Q)
+			{
+				Console.WriteLine(i);
+			}
+			#endregion
+
 		}
 	}
 }
