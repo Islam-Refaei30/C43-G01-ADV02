@@ -146,6 +146,27 @@ namespace Demo
 			//}
 			#endregion
 
+			#region Part 05 Stack
+			//Stack<int>Num = new Stack<int>();
+			//Num.Push(1);
+			//Num.Push(13);
+			//Num.Push(10);
+			//Num.Push(100);
+			////Num.Pop();
+			//Console.WriteLine(Num.Pop());
+			//Console.WriteLine(Num.Pop());
+			//Console.WriteLine(Num.Pop());
+
+			////Console.WriteLine(Num.Pop());//Invalid
+
+			//Console.WriteLine(Num.TryPop(out int R)); // False or True
+
+			//foreach (int i in Num)
+			//{
+			//	Console.WriteLine(i);
+			//}
+			#endregion
+
 		}
 	}
 }
